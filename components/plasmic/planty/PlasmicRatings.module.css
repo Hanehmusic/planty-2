@@ -1,0 +1,220 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 200px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 8px;
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.freeBox > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-left: calc(0px - 5px);
+  width: calc(100% + 5px);
+}
+.freeBox > :global(.__wab_flex-container) > *,
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox > :global(.__wab_flex-container) > picture > img,
+.freeBox
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 5px;
+}
+.svg__vtSd3 {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(239, 206, 74);
+  flex-shrink: 0;
+}
+.svgstars_zero__vtSd3DVqQg {
+  display: none;
+}
+.svg__mnBRq {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(239, 206, 74);
+  flex-shrink: 0;
+  display: none;
+}
+.svgstars_zero__mnBRqdVqQg {
+  display: none;
+}
+.svgstars_one__mnBRqY22BC {
+  display: none;
+}
+.svg__dmrzO {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(239, 206, 74);
+  flex-shrink: 0;
+  display: none;
+}
+.svgstars_zero__dmrzOdVqQg {
+  display: none;
+}
+.svgstars_one__dmrzOy22BC {
+  display: none;
+}
+.svgstars_two__dmrzOS9Xu {
+  display: none;
+}
+.svg__bzfqm {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(239, 206, 74);
+  flex-shrink: 0;
+  display: none;
+}
+.svgstars_zero__bzfqmdVqQg {
+  display: none;
+}
+.svgstars_one__bzfqmY22BC {
+  display: none;
+}
+.svgstars_two__bzfqmS9Xu {
+  display: none;
+}
+.svgstars_three__bzfqmuj33 {
+  display: none;
+}
+.svg__s0RBi {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(239, 206, 74);
+  flex-shrink: 0;
+  display: none;
+}
+.svgstars_zero__s0RBIdVqQg {
+  display: none;
+}
+.svgstars_one__s0RBiy22BC {
+  display: none;
+}
+.svgstars_two__s0RBiS9Xu {
+  display: none;
+}
+.svgstars_three__s0RBIuj33 {
+  display: none;
+}
+.svgstars_four__s0RBIqD8PI {
+  display: none;
+}
+.svg__e4RiT {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(169, 169, 169);
+  flex-shrink: 0;
+  display: none;
+}
+.svgstars_one__e4RiTy22BC {
+  display: none;
+}
+.svgstars_two__e4RiTS9Xu {
+  display: none;
+}
+.svgstars_three__e4RiTuj33 {
+  display: none;
+}
+.svgstars_four__e4RiTqD8PI {
+  display: none;
+}
+.svgstars_five__e4RiT2Y8Bh {
+  display: none;
+}
+.svg__wuwb {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(169, 169, 169);
+  flex-shrink: 0;
+}
+.svgstars_two__wuwbS9Xu {
+  display: none;
+}
+.svgstars_three__wuwbUj33 {
+  display: none;
+}
+.svgstars_four__wuwbQD8PI {
+  display: none;
+}
+.svgstars_five__wuwb2Y8Bh {
+  display: none;
+}
+.svg__cSfRo {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(169, 169, 169);
+  flex-shrink: 0;
+}
+.svgstars_three__cSfRouj33 {
+  display: none;
+}
+.svgstars_four__cSfRoqD8PI {
+  display: none;
+}
+.svgstars_five__cSfRo2Y8Bh {
+  display: none;
+}
+.svg___3L2Hc {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(169, 169, 169);
+  flex-shrink: 0;
+}
+.svgstars_four___3L2HcqD8PI {
+  display: none;
+}
+.svgstars_five___3L2Hc2Y8Bh {
+  display: none;
+}
+.svg__d6Lmy {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: rgb(169, 169, 169);
+  flex-shrink: 0;
+}
+.svgstars_five__d6Lmy2Y8Bh {
+  display: none;
+}
+.slotTargetNumReviews {
+  font-size: 14px;
+  color: var(--token-IQ87MneFLRup);
+}
